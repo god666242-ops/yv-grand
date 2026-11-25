@@ -1,7 +1,7 @@
 // Edit this file only. Everything on the page comes from here.
 // Items marked TODO are placeholders until the hotel confirms the details.
 export const hotel = {
-  slug: "yv-grand-the-luxury-hotel", // TODO: PureBook hotel slug (used by the booking button)
+  slug: "yv-grand", // TODO: PureBook hotel slug (used by the booking button)
   name: "YV Grand",
   full: "YV GRAND The Luxury Hotel",
   locality: "Krishnalanka",
