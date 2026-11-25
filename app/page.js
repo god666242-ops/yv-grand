@@ -260,9 +260,15 @@ export default function Page() {
               </a>
             ))}
           </nav>
-          <small>
-            © {new Date().getFullYear()} {h.full}
-          </small>
+          <div>
+            <small>
+              © {new Date().getFullYear()} {h.full}
+            </small>
+            <nav aria-label="Legal" className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
+              <a href="/terms" className="hover:text-white">Terms &amp; Conditions</a>
+              <a href="/privacy-policy" className="hover:text-white">Privacy Policy</a>
+            </nav>
+          </div>
         </div>
       </footer>
     </>

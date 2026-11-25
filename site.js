@@ -72,3 +72,6 @@ export const site = {
     ["Can I book by phone?", "Yes. Call the front desk using the number in the Contact section."],
   ],
 };
+
+// Used by the Terms & Conditions and Privacy Policy pages (legal.js)
+export const policy = { checkIn: null, checkOut: null, googleFonts: false };
